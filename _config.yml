@@ -101,3 +101,10 @@ theme: next
 
 # Deployment
 ## 使用 GitHub Actions 部署，配置在 .github/workflows/pages.yml
+
+# Search
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags

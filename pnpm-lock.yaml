@@ -11,6 +11,9 @@ importers:
       css:
         specifier: ^3.0.0
         version: 3.0.0
+      giscus:
+        specifier: ^1.6.0
+        version: 1.6.0
       hexo:
         specifier: ^8.0.0
         version: 8.1.1(chokidar@3.6.0)
@@ -23,9 +26,15 @@ importers:
       hexo-generator-index:
         specifier: ^4.0.0
         version: 4.0.0
+      hexo-generator-searchdb:
+        specifier: ^1.5.0
+        version: 1.5.0(chokidar@3.6.0)
       hexo-generator-tag:
         specifier: ^2.0.0
         version: 2.0.0
+      hexo-pangu:
+        specifier: ^0.4.1
+        version: 0.4.1
       hexo-renderer-ejs:
         specifier: ^2.0.0
         version: 2.0.0
@@ -47,6 +56,9 @@ importers:
       hexo-util:
         specifier: ^4.0.0
         version: 4.0.0
+      hexo-word-counter:
+        specifier: ^0.2.2
+        version: 0.2.2
 
 packages:
 
@@ -83,6 +95,12 @@ packages:
   '@csstools/css-tokenizer@3.0.4':
     resolution: {integrity: sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==}
     engines: {node: '>=18'}
+
+  '@lit-labs/ssr-dom-shim@1.5.1':
+    resolution: {integrity: sha512-Aou5UdlSpr5whQe8AA/bZG0jMj96CoJIWbGfZ91qieWu5AWUMKw8VR/pAkQkJYvBNhmCcWnZlyyk5oze8JIqYA==}
+
+  '@lit/reactive-element@2.1.2':
+    resolution: {integrity: sha512-pbCDiVMnne1lYUIaYNN5wrwQXDtHaYtg7YEFPeW+hws6U47WeFvISGUWekPGKWOP1ygrs0ef0o1VJMk1exos5A==}
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
@@ -161,6 +179,10 @@ packages:
 
   camel-case@4.1.2:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
+
+  cargo-cp-artifact@0.1.9:
+    resolution: {integrity: sha512-6F+UYzTaGB+awsTXg0uSJA1/b/B3DDJzpKVRu0UmyI7DmNeaAl2RFHuTGIN6fEgpadRxoXGb7gbC1xo4C3IdyA==}
+    hasBin: true
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -378,6 +400,9 @@ packages:
     resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
     engines: {node: '>= 0.4'}
 
+  giscus@1.6.0:
+    resolution: {integrity: sha512-Zrsi8r4t1LVW950keaWcsURuZUQwUaMKjvJgTCY125vkW6OiEBkatE7ScJDbpqKHdZwb///7FVC21SE3iFK3PQ==}
+
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -434,6 +459,9 @@ packages:
     resolution: {integrity: sha512-KeM7mOCKWINGFAk1E+CkjMMgqFIv8oaRbGxR7ipkQAp44o4aopkVftma4sdIplOq9WQEWfVYDUK5gEv9J3nzUg==}
     engines: {node: '>=18'}
 
+  hexo-generator-searchdb@1.5.0:
+    resolution: {integrity: sha512-d0b5SueDxJimTFaHpPg430FQFx7DtMkmEIHo0UTOjXWRy+eDqNSp1CuS04P7fWzMnH2h+aQc6O9D2yY+3sdAUg==}
+
   hexo-generator-tag@2.0.0:
     resolution: {integrity: sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw==}
     engines: {node: '>=14'}
@@ -449,6 +477,9 @@ packages:
   hexo-pagination@3.0.0:
     resolution: {integrity: sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==}
     engines: {node: '>=14'}
+
+  hexo-pangu@0.4.1:
+    resolution: {integrity: sha512-LE+hkkCadtoUCoNA3dkhladDKljmhc1rxTGNpdhtVKSVZJ+yc1DFnoxa7aPxMMgmQUw1iQtI+gyJZggMTAeTOg==}
 
   hexo-renderer-ejs@2.0.0:
     resolution: {integrity: sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ==}
@@ -479,6 +510,9 @@ packages:
   hexo-util@4.0.0:
     resolution: {integrity: sha512-oXKXBs1HZ2Wu/eq0paAVqtCmAEcqJPZ4xxSVRuwAplm1hFU41Ul53WA5bmYMEz9Dp+OJ/SdchjXRmYlbGJdt3w==}
     engines: {node: '>=18'}
+
+  hexo-word-counter@0.2.2:
+    resolution: {integrity: sha512-ga/0MbBlN/Xu8I6orRKpYJ/z4aNe3U4honCwBePna8e5gTEeHeF4COs3u4U9x041p8OApFiWQxhYoNOqieEwYw==}
 
   hexo@8.1.1:
     resolution: {integrity: sha512-UnzT4ImjKzMMuVRsvudxrl7MkdZwKe4S9xJN5pQPK9c+K0G+fLFb9kB6CqZZwj2E5ne+QK0ls4XMKqTUbNR3RQ==}
@@ -584,9 +618,27 @@ packages:
       canvas:
         optional: true
 
+  jsdom@26.1.0:
+    resolution: {integrity: sha512-Cvc9WUhxSMEo4McES3P7oK3QaXldCfNWp7pl2NNeiIFlCoLr3kfq9kb1fxftiwk1FLV7CvpvDfonxtzUDeSOPg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      canvas: ^3.0.0
+    peerDependenciesMeta:
+      canvas:
+        optional: true
+
   jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
     engines: {'0': node >= 0.2.0}
+
+  lit-element@4.2.2:
+    resolution: {integrity: sha512-aFKhNToWxoyhkNDmWZwEva2SlQia+jfG0fjIWV//YeTaWrVnOxD89dPKfigCUspXFmjzOEUQpOkejH5Ly6sG0w==}
+
+  lit-html@3.3.2:
+    resolution: {integrity: sha512-Qy9hU88zcmaxBXcc10ZpdK7cOLXvXpRoBxERdtqV9QOrfpMZZ6pSYP91LhpPtap3sFMUiL7Tw2RImbe0Al2/kw==}
+
+  lit@3.3.2:
+    resolution: {integrity: sha512-NF9zbsP79l4ao2SNrH3NkfmFgN/hBYSQo90saIVI1o5GpjAdCPVstVzO1MrLOakHoEhYkrtRjPK6Ob521aoYWQ==}
 
   lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
@@ -718,6 +770,11 @@ packages:
   open@8.4.2:
     resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
     engines: {node: '>=12'}
+
+  pangu@7.2.0:
+    resolution: {integrity: sha512-ak81fYnTD36UvRxp6yNmCyV8T/s9dtv/OS9LjTNwh3TMo5i1OhtLmFDxyw1rTZWAnfrj/00gtl883+RE2r+4tA==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
 
   parse5@7.3.0:
     resolution: {integrity: sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==}
@@ -1005,8 +1062,13 @@ snapshots:
 
   '@csstools/css-tokenizer@3.0.4': {}
 
-  '@types/trusted-types@2.0.7':
-    optional: true
+  '@lit-labs/ssr-dom-shim@1.5.1': {}
+
+  '@lit/reactive-element@2.1.2':
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.5.1
+
+  '@types/trusted-types@2.0.7': {}
 
   a-sync-waterfall@1.0.1: {}
 
@@ -1067,6 +1129,8 @@ snapshots:
     dependencies:
       pascal-case: 3.1.2
       tslib: 2.8.1
+
+  cargo-cp-artifact@0.1.9: {}
 
   chokidar@3.6.0:
     dependencies:
@@ -1289,6 +1353,10 @@ snapshots:
       dunder-proto: 1.0.1
       es-object-atoms: 1.1.1
 
+  giscus@1.6.0:
+    dependencies:
+      lit: 3.3.2
+
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
@@ -1359,6 +1427,12 @@ snapshots:
     dependencies:
       hexo-pagination: 3.0.0
 
+  hexo-generator-searchdb@1.5.0(chokidar@3.6.0):
+    dependencies:
+      nunjucks: 3.2.4(chokidar@3.6.0)
+    transitivePeerDependencies:
+      - chokidar
+
   hexo-generator-tag@2.0.0:
     dependencies:
       hexo-pagination: 3.0.0
@@ -1372,6 +1446,16 @@ snapshots:
       picocolors: 1.1.1
 
   hexo-pagination@3.0.0: {}
+
+  hexo-pangu@0.4.1:
+    dependencies:
+      jsdom: 26.1.0
+      pangu: 7.2.0
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
 
   hexo-renderer-ejs@2.0.0:
     dependencies:
@@ -1432,6 +1516,10 @@ snapshots:
       htmlparser2: 10.1.0
       prismjs: 1.30.0
       strip-indent: 3.0.0
+
+  hexo-word-counter@0.2.2:
+    dependencies:
+      cargo-cp-artifact: 0.1.9
 
   hexo@8.1.1(chokidar@3.6.0):
     dependencies:
@@ -1585,7 +1673,50 @@ snapshots:
       - supports-color
       - utf-8-validate
 
+  jsdom@26.1.0:
+    dependencies:
+      cssstyle: 4.6.0
+      data-urls: 5.0.0
+      decimal.js: 10.6.0
+      html-encoding-sniffer: 4.0.0
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.6
+      is-potential-custom-element-name: 1.0.1
+      nwsapi: 2.2.23
+      parse5: 7.3.0
+      rrweb-cssom: 0.8.0
+      saxes: 6.0.0
+      symbol-tree: 3.2.4
+      tough-cookie: 5.1.2
+      w3c-xmlserializer: 5.0.0
+      webidl-conversions: 7.0.0
+      whatwg-encoding: 3.1.1
+      whatwg-mimetype: 4.0.0
+      whatwg-url: 14.2.0
+      ws: 8.20.0
+      xml-name-validator: 5.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+
   jsonparse@1.3.1: {}
+
+  lit-element@4.2.2:
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.5.1
+      '@lit/reactive-element': 2.1.2
+      lit-html: 3.3.2
+
+  lit-html@3.3.2:
+    dependencies:
+      '@types/trusted-types': 2.0.7
+
+  lit@3.3.2:
+    dependencies:
+      '@lit/reactive-element': 2.1.2
+      lit-element: 4.2.2
+      lit-html: 3.3.2
 
   lower-case@2.0.2:
     dependencies:
@@ -1697,6 +1828,8 @@ snapshots:
       define-lazy-prop: 2.0.0
       is-docker: 2.2.1
       is-wsl: 2.2.0
+
+  pangu@7.2.0: {}
 
   parse5@7.3.0:
     dependencies:

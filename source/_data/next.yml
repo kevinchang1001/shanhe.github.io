@@ -16,3 +16,48 @@ menu:
 menu_settings:
   icons: true
   badges: false
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+# Word count (hexo-word-counter)
+symbols_count_time:
+  separated_meta: true
+  item_text_total: false
+  display:
+    post: true
+    total: true
+
+# ---------------------------------------------------------------
+# Search
+# Dependencies: hexo-generator-searchdb
+# ---------------------------------------------------------------
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# ---------------------------------------------------------------
+# Comments
+# Giscus requires installing the GitHub App first:
+# https://github.com/apps/giscus
+# ---------------------------------------------------------------
+comments:
+  style: tabs
+  active: giscus
+  storage: true
+  lazyload: false
+
+giscus:
+  enable: true
+  repo: kevinchang1001/shanhe
+  repository_id: R_kgDOOXXXXX
+  category: General
+  category_id: DIC_kwDOOXXXXX
+  mapping: pathname
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: bottom
+  theme: preferred_color_scheme
+  lang: zh-CN
