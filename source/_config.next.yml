@@ -20,13 +20,13 @@ menu_settings:
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
-# Word count (hexo-word-counter)
-symbols_count_time:
-  separated_meta: true
-  item_text_total: false
-  display:
-    post: true
-    total: true
+# Word count - using hexo-symbols-count-time instead
+# symbols_count_time:
+#   separated_meta: true
+#   item_text_total: false
+#   display:
+#     post: true
+#     total: true
 
 # ---------------------------------------------------------------
 # Search
@@ -55,20 +55,6 @@ math:
 # Pangu (hexo-pangu) - Chinese text spacing
 # ---------------------------------------------------------------
 pangu: true
-
-# ---------------------------------------------------------------
-# Optimize (hexo-optimize)
-# ---------------------------------------------------------------
-optimize:
-  enable: true
-  lib:
-    css: # Set to false to disable the built-in css optimizer
-      - # E.g. path or CDN link
-    js:
-      - # E.g. path or CDN link
-  filter:
-    exclude:
-      - # E.g. some paths to exclude from optimization
 
 # ---------------------------------------------------------------
 # External Libraries

@@ -50,9 +50,6 @@ importers:
       hexo-next-valine:
         specifier: ^1.0.0
         version: 1.0.0
-      hexo-optimize:
-        specifier: ^3.4.0
-        version: 3.4.0
       hexo-pangu:
         specifier: ^0.4.1
         version: 0.4.1
@@ -77,9 +74,6 @@ importers:
       hexo-util:
         specifier: ^4.0.0
         version: 4.0.0
-      hexo-word-counter:
-        specifier: ^0.2.2
-        version: 0.2.2
 
 packages:
 
@@ -138,36 +132,6 @@ packages:
 
   '@lit/reactive-element@2.1.2':
     resolution: {integrity: sha512-pbCDiVMnne1lYUIaYNN5wrwQXDtHaYtg7YEFPeW+hws6U47WeFvISGUWekPGKWOP1ygrs0ef0o1VJMk1exos5A==}
-
-  '@minify-html/node-darwin-arm64@0.16.4':
-    resolution: {integrity: sha512-9H8hcywDb8zo2jEJfaIAibgsKjMqE+XF7SyqTtJ5H8lVXHxffOkawH4TQtphf9V/x7zXeb/nByAvHe1orJ/RHA==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@minify-html/node-darwin-x64@0.16.4':
-    resolution: {integrity: sha512-P0Krf5nwXbccMrC7ragKAIVOENHFoVRQi+v/8k5pmfjrNlxgXGVILacG0FbUZXsH2Z2XaIo39HxuMf70L6wQlA==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@minify-html/node-linux-arm64@0.16.4':
-    resolution: {integrity: sha512-GDRExKf7AmyAdBTdhMkMyzFhJu5VeyJTu0OnNH2ekp69JrhQTrrrt9UYqnjen+7qLIaZB/R8urDRAYNk0HZi5w==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@minify-html/node-linux-x64@0.16.4':
-    resolution: {integrity: sha512-MS/gF1gxJoeHqEGcb1xoUIRv6gVin4cGJszgHPYSikzkK8Yg0p6rVOZdDAE4AAnp/NW0DYNq7fwYgw3igmppFw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@minify-html/node-win32-x64@0.16.4':
-    resolution: {integrity: sha512-SCY7hzIqG1RclU0QzU2MlGtPOujPu6dvaPYqDvhAHpkvRXtX0hnyOrrfqf7GcBdDbASxV8LDlBWpY46JO2cjAA==}
-    cpu: [x64]
-    os: [win32]
-
-  '@minify-html/node@0.16.4':
-    resolution: {integrity: sha512-ykQgl6xcQQDE1shUExeObPSNwAf00DVUt/GrxdjiqFNCVGu7DXK9nuH29sNTyKKYnJJLZAi6OEib2bDfxW3udg==}
-    engines: {node: '>= 8.6.0'}
-    hasBin: true
 
   '@next-theme/utils@1.3.0':
     resolution: {integrity: sha512-iLAtLEK+t4NOGsiG3/KCMRcPfU3NBModvH8bEntITbGkkNdDYQ0buuf5qcHn83pEaoQ6j6t8xR7EwicShs0icw==}
@@ -261,10 +225,6 @@ packages:
 
   camel-case@4.1.2:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
-
-  cargo-cp-artifact@0.1.9:
-    resolution: {integrity: sha512-6F+UYzTaGB+awsTXg0uSJA1/b/B3DDJzpKVRu0UmyI7DmNeaAl2RFHuTGIN6fEgpadRxoXGb7gbC1xo4C3IdyA==}
-    hasBin: true
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -365,10 +325,6 @@ packages:
   destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
-
-  detect-libc@2.1.2:
-    resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
-    engines: {node: '>=8'}
 
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
@@ -605,9 +561,6 @@ packages:
   hexo-next-valine@1.0.0:
     resolution: {integrity: sha512-xno6f41+A7RyF8tNFZAHx4KJyp0Dck4rajwWsRmSdus/GF56t2z1q0NwFcDAIhijS/Bw9TfpzRdxDUBN/op9ew==}
 
-  hexo-optimize@3.4.0:
-    resolution: {integrity: sha512-GWvbF1a4LNTHAXVt28+za/2W8arq4zCzmWQluaoAeGueI7i/cVAJrzPaftW+JYVZrKWXNiob6NJvJ47fQZ81BA==}
-
   hexo-pagination@3.0.0:
     resolution: {integrity: sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==}
     engines: {node: '>=14'}
@@ -648,9 +601,6 @@ packages:
   hexo-util@4.0.0:
     resolution: {integrity: sha512-oXKXBs1HZ2Wu/eq0paAVqtCmAEcqJPZ4xxSVRuwAplm1hFU41Ul53WA5bmYMEz9Dp+OJ/SdchjXRmYlbGJdt3w==}
     engines: {node: '>=18'}
-
-  hexo-word-counter@0.2.2:
-    resolution: {integrity: sha512-ga/0MbBlN/Xu8I6orRKpYJ/z4aNe3U4honCwBePna8e5gTEeHeF4COs3u4U9x041p8OApFiWQxhYoNOqieEwYw==}
 
   hexo@8.1.1:
     resolution: {integrity: sha512-UnzT4ImjKzMMuVRsvudxrl7MkdZwKe4S9xJN5pQPK9c+K0G+fLFb9kB6CqZZwj2E5ne+QK0ls4XMKqTUbNR3RQ==}
@@ -778,80 +728,6 @@ packages:
   jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
     engines: {'0': node >= 0.2.0}
-
-  lightningcss-android-arm64@1.32.0:
-    resolution: {integrity: sha512-YK7/ClTt4kAK0vo6w3X+Pnm0D2cf2vPHbhOXdoNti1Ga0al1P4TBZhwjATvjNwLEBCnKvjJc2jQgHXH0NEwlAg==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [arm64]
-    os: [android]
-
-  lightningcss-darwin-arm64@1.32.0:
-    resolution: {integrity: sha512-RzeG9Ju5bag2Bv1/lwlVJvBE3q6TtXskdZLLCyfg5pt+HLz9BqlICO7LZM7VHNTTn/5PRhHFBSjk5lc4cmscPQ==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [arm64]
-    os: [darwin]
-
-  lightningcss-darwin-x64@1.32.0:
-    resolution: {integrity: sha512-U+QsBp2m/s2wqpUYT/6wnlagdZbtZdndSmut/NJqlCcMLTWp5muCrID+K5UJ6jqD2BFshejCYXniPDbNh73V8w==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [x64]
-    os: [darwin]
-
-  lightningcss-freebsd-x64@1.32.0:
-    resolution: {integrity: sha512-JCTigedEksZk3tHTTthnMdVfGf61Fky8Ji2E4YjUTEQX14xiy/lTzXnu1vwiZe3bYe0q+SpsSH/CTeDXK6WHig==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [x64]
-    os: [freebsd]
-
-  lightningcss-linux-arm-gnueabihf@1.32.0:
-    resolution: {integrity: sha512-x6rnnpRa2GL0zQOkt6rts3YDPzduLpWvwAF6EMhXFVZXD4tPrBkEFqzGowzCsIWsPjqSK+tyNEODUBXeeVHSkw==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [arm]
-    os: [linux]
-
-  lightningcss-linux-arm64-gnu@1.32.0:
-    resolution: {integrity: sha512-0nnMyoyOLRJXfbMOilaSRcLH3Jw5z9HDNGfT/gwCPgaDjnx0i8w7vBzFLFR1f6CMLKF8gVbebmkUN3fa/kQJpQ==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [arm64]
-    os: [linux]
-    libc: [glibc]
-
-  lightningcss-linux-arm64-musl@1.32.0:
-    resolution: {integrity: sha512-UpQkoenr4UJEzgVIYpI80lDFvRmPVg6oqboNHfoH4CQIfNA+HOrZ7Mo7KZP02dC6LjghPQJeBsvXhJod/wnIBg==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [arm64]
-    os: [linux]
-    libc: [musl]
-
-  lightningcss-linux-x64-gnu@1.32.0:
-    resolution: {integrity: sha512-V7Qr52IhZmdKPVr+Vtw8o+WLsQJYCTd8loIfpDaMRWGUZfBOYEJeyJIkqGIDMZPwPx24pUMfwSxxI8phr/MbOA==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [x64]
-    os: [linux]
-    libc: [glibc]
-
-  lightningcss-linux-x64-musl@1.32.0:
-    resolution: {integrity: sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [x64]
-    os: [linux]
-    libc: [musl]
-
-  lightningcss-win32-arm64-msvc@1.32.0:
-    resolution: {integrity: sha512-8SbC8BR40pS6baCM8sbtYDSwEVQd4JlFTOlaD3gWGHfThTcABnNDBda6eTZeqbofalIJhFx0qKzgHJmcPTnGdw==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [arm64]
-    os: [win32]
-
-  lightningcss-win32-x64-msvc@1.32.0:
-    resolution: {integrity: sha512-Amq9B/SoZYdDi1kFrojnoqPLxYhQ4Wo5XiL8EVJrVsB8ARoC1PWW6VGtT0WKCemjy8aC+louJnjS7U18x3b06Q==}
-    engines: {node: '>= 12.0.0'}
-    cpu: [x64]
-    os: [win32]
-
-  lightningcss@1.32.0:
-    resolution: {integrity: sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==}
-    engines: {node: '>= 12.0.0'}
 
   lit-element@4.2.2:
     resolution: {integrity: sha512-aFKhNToWxoyhkNDmWZwEva2SlQia+jfG0fjIWV//YeTaWrVnOxD89dPKfigCUspXFmjzOEUQpOkejH5Ly6sG0w==}
@@ -1337,29 +1213,6 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.5.1
 
-  '@minify-html/node-darwin-arm64@0.16.4':
-    optional: true
-
-  '@minify-html/node-darwin-x64@0.16.4':
-    optional: true
-
-  '@minify-html/node-linux-arm64@0.16.4':
-    optional: true
-
-  '@minify-html/node-linux-x64@0.16.4':
-    optional: true
-
-  '@minify-html/node-win32-x64@0.16.4':
-    optional: true
-
-  '@minify-html/node@0.16.4':
-    optionalDependencies:
-      '@minify-html/node-darwin-arm64': 0.16.4
-      '@minify-html/node-darwin-x64': 0.16.4
-      '@minify-html/node-linux-arm64': 0.16.4
-      '@minify-html/node-linux-x64': 0.16.4
-      '@minify-html/node-win32-x64': 0.16.4
-
   '@next-theme/utils@1.3.0':
     dependencies:
       hexo-util: 2.5.0
@@ -1432,8 +1285,6 @@ snapshots:
     dependencies:
       pascal-case: 3.1.2
       tslib: 2.8.1
-
-  cargo-cp-artifact@0.1.9: {}
 
   chokidar@3.6.0:
     dependencies:
@@ -1533,8 +1384,6 @@ snapshots:
   depd@2.0.0: {}
 
   destroy@1.2.0: {}
-
-  detect-libc@2.1.2: {}
 
   dom-serializer@1.4.1:
     dependencies:
@@ -1800,14 +1649,6 @@ snapshots:
     dependencies:
       '@next-theme/utils': 1.3.0
 
-  hexo-optimize@3.4.0:
-    dependencies:
-      '@minify-html/node': 0.16.4
-      bluebird: 3.7.2
-      lightningcss: 1.32.0
-      micromatch: 4.0.8
-      terser: 5.46.2
-
   hexo-pagination@3.0.0: {}
 
   hexo-pangu@0.4.1:
@@ -1890,10 +1731,6 @@ snapshots:
       htmlparser2: 10.1.0
       prismjs: 1.30.0
       strip-indent: 3.0.0
-
-  hexo-word-counter@0.2.2:
-    dependencies:
-      cargo-cp-artifact: 0.1.9
 
   hexo@8.1.1(chokidar@3.6.0):
     dependencies:
@@ -2088,55 +1925,6 @@ snapshots:
       - utf-8-validate
 
   jsonparse@1.3.1: {}
-
-  lightningcss-android-arm64@1.32.0:
-    optional: true
-
-  lightningcss-darwin-arm64@1.32.0:
-    optional: true
-
-  lightningcss-darwin-x64@1.32.0:
-    optional: true
-
-  lightningcss-freebsd-x64@1.32.0:
-    optional: true
-
-  lightningcss-linux-arm-gnueabihf@1.32.0:
-    optional: true
-
-  lightningcss-linux-arm64-gnu@1.32.0:
-    optional: true
-
-  lightningcss-linux-arm64-musl@1.32.0:
-    optional: true
-
-  lightningcss-linux-x64-gnu@1.32.0:
-    optional: true
-
-  lightningcss-linux-x64-musl@1.32.0:
-    optional: true
-
-  lightningcss-win32-arm64-msvc@1.32.0:
-    optional: true
-
-  lightningcss-win32-x64-msvc@1.32.0:
-    optional: true
-
-  lightningcss@1.32.0:
-    dependencies:
-      detect-libc: 2.1.2
-    optionalDependencies:
-      lightningcss-android-arm64: 1.32.0
-      lightningcss-darwin-arm64: 1.32.0
-      lightningcss-darwin-x64: 1.32.0
-      lightningcss-freebsd-x64: 1.32.0
-      lightningcss-linux-arm-gnueabihf: 1.32.0
-      lightningcss-linux-arm64-gnu: 1.32.0
-      lightningcss-linux-arm64-musl: 1.32.0
-      lightningcss-linux-x64-gnu: 1.32.0
-      lightningcss-linux-x64-musl: 1.32.0
-      lightningcss-win32-arm64-msvc: 1.32.0
-      lightningcss-win32-x64-msvc: 1.32.0
 
   lit-element@4.2.2:
     dependencies:
