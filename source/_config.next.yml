@@ -127,6 +127,16 @@ giscus:
 #  enable: false
 #  appid: # Your Valine appid
 #  appkey: # Your Valine appkey
+
+# ---------------------------------------------------------------
+# Table of Contents (TOC)
+# ---------------------------------------------------------------
+toc:
+  enable: true
+  number: true
+  max_depth: 3
+  min_depth: 1
+  place: right
 #  placeholder: 说点什么吧... # Comment input placeholder
 #  avatar: mp # Avatar style
 #  pageSize: 10 # Pagination size
